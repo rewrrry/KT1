@@ -1,4 +1,4 @@
-et price = 10000
+let price = 10000
 let range = "day"
 
 let rangeRu;
@@ -10,5 +10,5 @@ if (range === "month") {
     rangeRu = "неделю";
 }
 
-console.log("Задача №1:");
-console.log(price + " Р в " + rangeRu);
+let result = price + " Деняк в " + rangeRu;
+console.log(result);
